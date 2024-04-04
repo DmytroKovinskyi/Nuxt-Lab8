@@ -1,4 +1,7 @@
 <script setup lang="ts">
+useHead({
+  title: 'Students'
+});
 import { ref, computed } from 'vue';
 
 const columns = [
