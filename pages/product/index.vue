@@ -53,7 +53,7 @@ const filteredRows = computed(() => {
 });
 
 const page = ref(1);
-const pageCount = 4;
+const pageCount = 5;
 
 const sort = ref({ column: '', direction: 'asc' as const })
 const sortedRows = computed(() => {
